@@ -1,7 +1,7 @@
-import unittest  # okay so this is the built-in module for running tests in python
-from unittest.mock import MagicMock  # this lets us fake stuff like a database so we dont actually need a real one
-import time  # just using this to check how fast things are
-import sys  # this one helps us check what python version is running
+import unittest  
+from unittest.mock import MagicMock  
+import time  
+import sys  
 
 class TestFeedbackTracker(unittest.TestCase):
     """
